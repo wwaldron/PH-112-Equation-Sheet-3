@@ -1,0 +1,186 @@
+\begin{multicols*}{2}
+\section{Freebies}\label{sec:freebies}
+% \subsection{Trigonometry}
+
+% \begin{align*}
+%     \sin \theta &= \frac{\mathrm{opposite}}{\mathrm{hypotenuse}} \\[4pt]
+%     \cos \theta &= \frac{\mathrm{adjacent}}{\mathrm{hypotenuse}} \\[4pt]
+%     \tan \theta &= \frac{\mathrm{opposite}}{\mathrm{adjacent}}
+% \end{align*}
+
+\subsection{Constants}
+
+\begin{equation*}
+    g = \qty{9.8}{\meter\per\square\second}
+\end{equation*}
+\begin{equation*}
+    m_e = \qty{9.109387e-31}{\kilo\gram}
+\end{equation*}
+\begin{equation*}
+    m_p = \qty{1.6726219e-27}{\kilo\gram}
+\end{equation*}
+\begin{equation*}
+    N_A = \qty{6.022e23}{\per\mol}
+\end{equation*}
+\begin{equation*}
+    k = \qty{1.381e-23}{\joule\per\kelvin} = \qty{8.617e-5}{\electronvolt\per\kelvin}
+\end{equation*}
+\begin{equation*}
+    R = N_A k = \qty{8.314}{\joule\per\mol\per\kelvin} =
+                \qty{0.0821}{\liter\atmosphere\per\mol\per\kelvin}
+\end{equation*}
+\begin{equation*}
+    \qty{1}{\atmosphere} = \qty{101.3}{\kilo\pascal}
+\end{equation*}
+
+% \subsection{Conversions}
+
+% \begin{align*}
+%     \qty{1}{G}              &= \qty{e-4}{\tesla}                \\[4pt]
+%     \qty{1}{\weber}         &= \qty{1}{\tesla\square\meter}     \\[4pt]
+%     \qty{1}{\henry}         &= \qty{1}{\weber\per\ampere}
+% \end{align*}
+
+% \subsection{Previous Units}
+
+% \begin{equation*}
+%     F = ma
+% \end{equation*}
+
+% % --- New Column ------------------------------------------------------------ %
+% \vfill\null
+% \columnbreak
+
+\section{RLC Circuits}
+
+\begin{equation*}
+    X_L = \omega L
+\end{equation*}
+\begin{equation*}
+    X_C = 1 / \left( \omega C \right)
+\end{equation*}
+\begin{equation*}
+    P_\mathrm{av} = I_\mathrm{rms}^2 R
+\end{equation*}
+\begin{equation*}
+    \omega = 1 / \sqrt{LC}
+\end{equation*}
+
+\section{Thermodynamics}
+
+\begin{equation*}
+    t_C = \frac59 \left( t_F - 32 \right) = T - 273.15
+\end{equation*}
+\begin{equation*}
+    \alpha = \frac{\Delta L / L}{\Delta T}
+\end{equation*}
+\begin{equation*}
+    \beta = \frac{\Delta V / V}{\Delta T} = 3\alpha
+\end{equation*}
+\begin{equation*}
+    PV = nRT
+\end{equation*}
+\begin{equation*}
+    v_\mathrm{rms} = \sqrt{\left(v^2\right)_\mathrm{av}} =
+    \sqrt{\bar{v^2}} = \sqrt{\frac{3kT}{m}} = \sqrt{\frac{3RT}{M}}
+\end{equation*}
+\begin{equation*}
+    \frac{1}{2} m \bar{v^2} = \frac{3}{2} k T
+\end{equation*}
+\begin{equation*}
+    K = N \left( \frac{1}{2} m \bar{v^2} \right) = \frac32 N k T = \frac32 nRT
+\end{equation*}
+\begin{equation*}
+    \lambda = \frac{1}{\sqrt{2} n_V \pi d^2}
+\end{equation*}
+\begin{equation*}
+    C = \frac{Q}{\Delta T}
+\end{equation*}
+\begin{equation*}
+    C_V = \frac{Q_V}{\Delta T} = \d{E_\mathrm{int}}{T}
+\end{equation*}
+\begin{equation*}
+    C_P = \frac{Q_P}{\Delta T}
+\end{equation*}
+\begin{equation*}
+    c = \frac{C}{m}
+\end{equation*}
+\begin{equation*}
+    c' = \frac{C}{n}
+\end{equation*}
+\begin{equation*}
+    \sum \Delta Q = 0
+\end{equation*}
+\begin{equation*}
+    Q_f = L_f m
+\end{equation*}
+\begin{equation*}
+    Q_v = L_v m
+\end{equation*}
+% \vfill\null
+% \columnbreak
+\begin{equation*}
+    \Delta E_\mathrm{int} = Q_\mathrm{in} + W_\mathrm{on}
+\end{equation*}
+\begin{equation*}
+    PV^\gamma = \mathrm{constant}
+\end{equation*}
+\begin{equation*}
+    W_\mathrm{on} = -\int_{V_i}^{V_f} P\,dV = C_V\Delta T - Q_{in}
+\end{equation*}
+
+\subsection{Ideal, Monatomic Gases}
+\begin{equation*}
+    C_P - C_V = n R
+\end{equation*}
+\begin{equation*}
+    C_V = \frac32 n R
+\end{equation*}
+\begin{equation*}
+    C_P = \frac52 n R
+\end{equation*}
+\begin{equation*}
+    E_\mathrm{int} = \frac32 nRT
+\end{equation*}
+\begin{equation*}
+    dE_\mathrm{int} = C_V\, dT
+\end{equation*}
+
+\subsection{Thermal Processes}
+\begin{tabular}{lccc}
+    \hline
+    Process     & $\Delta E_\mathrm{int}$   & $Q_\mathrm{in}$   & $W_\mathrm{on}$                   \\
+    \hline
+    General     & $C_V \Delta T$            & $\Delta E_\mathrm{int} - W_\mathrm{on}$  & $PV$ Area               \\
+    Isobaric    & $C_V \Delta T$            & $C_P \Delta T$    & $-P\,\Delta V$                    \\
+    Isothermal  & 0                         & $-W_\mathrm{on}$  & $-nRT \ln\left(V_f/V_i\right)$    \\
+    Adiabatic   & $C_V \Delta T$            & 0                 & $\Delta U$                        \\
+    Isometric   & $C_V \Delta T$            & $\Delta U$        & 0                                 \\
+    \hline
+\end{tabular}
+
+\section{Heat Engines}
+
+\begin{equation*}
+    \epsilon = \frac{W}{Q_h} = 1 - \frac{Q_c}{Q_h}
+\end{equation*}
+\begin{equation*}
+    \mathrm{COP}_c = \frac{Q_c}{W}
+\end{equation*}
+\begin{equation*}
+    \mathrm{COP}_h = \frac{Q_h}{W}
+\end{equation*}
+\begin{equation*}
+    \epsilon_C = 1 - \frac{Q_c}{Q_h} = 1 - \frac{T_c}{T_h}
+\end{equation*}
+\begin{equation*}
+    dS = \frac{dQ_\mathrm{rev}}{T}
+\end{equation*}
+\begin{equation*}
+    \Delta S = C_V\ln\frac{T_f}{T_i} + nR\ln\frac{V_f}{V_i}
+\end{equation*}
+\begin{equation*}
+    W_\mathrm{lost} = T\,\Delta S_u
+\end{equation*}
+
+\end{multicols*}
